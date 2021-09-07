@@ -2,7 +2,7 @@
     font-size: 23px; 
     width: 100%; 
     margin: 0px; 
-    box-shadow:5px 5px 5px rgb(247, 247, 247); 
+    box-shadow:5px 5px 5px grey; 
 } 
 
 .heading_div { 
@@ -17,3 +17,26 @@
  .heading_div2 { 
      font-size: 18px ; 
     }
+
+.result_para_tag { 
+    box-shadow:5px 5px 5px grey; 
+    font-size: 20px; 
+    } 
+
+.copy_right_footer { 
+    position: fixed; 
+    color: white; 
+    bottom: 0; 
+    width: 100%; 
+    background-color:grey; 
+    line-height: 3; 
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+} 
+
+canvas { 
+    border:5px solid white; 
+    border-radius:20px; 
+    box-shadow:5px 5px 5px grey; 
+    margin-top: 150px; 
+}
